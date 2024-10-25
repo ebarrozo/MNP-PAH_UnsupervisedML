@@ -1,1 +1,3 @@
 # MNP-PAH_UnsupervisedML
+
+Machine learning random forest algorithms. Environmental toxin concentrations and clinical metadata were imported into R and underwent preprocessing via (i) center and scaling variables, (ii) filtering variables with zero or near zero variance, (iii) filtering out variables with >90% correlation, and (iv) bag imputation to infer missing values (Supplementary Table 1D). Patterns were identified from unsupervised clustering using the partition around medoids (PAM) algorithm. PAM clustering with an Euclidean distance matrix was utilized to identify distinct exposure profiles based on silhouette width, categorizing subjects by their exposure to MNPs and PAHs (Supplementary Table 1E).
